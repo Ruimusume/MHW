@@ -15,18 +15,18 @@ PC 怪物猎人 装备自定义修改 CT
       <td><div align="center">装饰品1</div></td>
       <td><div align="center">装饰品2</div></td>
       <td><div align="center">装饰品3</div></td>
-      <td><br></td>
       <td></td>
-      <td><br></td>
       <td></td>
-      <td><br></td>
+      <td></td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
       <td><div align="center">武器</div></td>
       <td><div align="center">武器种类</div></td>
       <td><div align="center">武器样式</div></td>
-      <td><br></td>
+      <td></td>
       <td></td>
       <td><div align="center">装饰品1</div></td>
       <td><div align="center">装饰品2</div></td>
@@ -42,31 +42,31 @@ PC 怪物猎人 装备自定义修改 CT
       <td><div align="center">护石</div></td>
       <td><div align="center">护石固定ID 05</div></td>
       <td><div align="center">护石样式</div></td>
-      <td><br></td>
+      <td></td>
       <td></td>
       <td><div align="center">装饰品1</div></td>
       <td><div align="center">装饰品2</div></td>
       <td><div align="center">装饰品3</div></td>
-      <td><br></td>
       <td></td>
-      <td><br></td>
       <td></td>
-      <td><br></td>
+      <td></td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
       <td><div align="center">猎虫</div></td>
       <td><div align="center">猎虫固定ID FF</div></td>
       <td><div align="center">猎虫样式</div></td>
-      <td><br></td>
       <td></td>
-      <td><br></td>
       <td></td>
-      <td><br></td>
       <td></td>
-      <td><br></td>
       <td></td>
-      <td><br></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
