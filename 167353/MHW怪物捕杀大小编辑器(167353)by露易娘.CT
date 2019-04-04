@@ -3,14 +3,14 @@
   <CheatEntries>
     <CheatEntry>
       <ID>4870</ID>
-      <Description>"MHW怪物编辑器（公会名片）(166925)by露易娘"</Description>
+      <Description>"MHW怪物编辑器（公会名片）(167353)by露易娘"</Description>
       <Options moHideChildren="1"/>
       <LastState Activated="1"/>
       <Color>FF0000</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>{ Game   : MonsterHunterWorld.exe
   Version: 
-  Date   : 2019-03-07
+  Date   : 2019-04-04
   Author : weibo-Ruisan
 }
 
