@@ -3,7 +3,7 @@
   <CheatEntries>
     <CheatEntry>
       <ID>1337052019</ID>
-      <Description>"MHW(166925)装备自定义 by露易娘"</Description>
+      <Description>"MHW(167353)装备自定义 by露易娘"</Description>
       <Options moHideChildren="1"/>
       <LastState Value="" Activated="1" RealAddress="00000000"/>
       <Color>8000FF</Color>
@@ -18,7 +18,7 @@
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{ Game   : MonsterHunterWorld.exe
   Version:
-  Date   : 2019-03-07
+  Date   : 2019-04-04
   Author : weibo-Ruisan
 }
 
