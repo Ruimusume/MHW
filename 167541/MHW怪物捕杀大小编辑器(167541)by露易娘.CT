@@ -63,6 +63,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5016</ID>
               <Description>"蛮顎竜"</Description>
+              <LastState Value="40" RealAddress="890A4A90"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -72,6 +73,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5017</ID>
               <Description>"火竜"</Description>
+              <LastState Value="42" RealAddress="890A4A94"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -81,6 +83,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5018</ID>
               <Description>"賊竜"</Description>
+              <LastState Value="32" RealAddress="890A4AAC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -90,6 +93,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5019</ID>
               <Description>"雌火竜"</Description>
+              <LastState Value="54" RealAddress="890A4AB4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -99,6 +103,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5020</ID>
               <Description>"桜火竜"</Description>
+              <LastState Value="46" RealAddress="890A4AB8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -108,6 +113,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5021</ID>
               <Description>"蒼火竜"</Description>
+              <LastState Value="19" RealAddress="890A4ABC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -117,6 +123,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5022</ID>
               <Description>"角竜"</Description>
+              <LastState Value="39" RealAddress="890A4AC0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -126,6 +133,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5023</ID>
               <Description>"黒角竜"</Description>
+              <LastState Value="16" RealAddress="890A4AC4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -135,6 +143,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5024</ID>
               <Description>"溶岩竜"</Description>
+              <LastState Value="14" RealAddress="890A4ADC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -144,6 +153,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5025</ID>
               <Description>"恐暴竜"</Description>
+              <LastState Value="23" RealAddress="890A4AE0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -153,6 +163,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5108</ID>
               <Description>"土砂竜"</Description>
+              <LastState Value="50" RealAddress="890A4AE4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -162,6 +173,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5026</ID>
               <Description>"爆鎚竜"</Description>
+              <LastState Value="17" RealAddress="890A4AE8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -171,6 +183,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5027</ID>
               <Description>"毒妖鳥"</Description>
+              <LastState Value="34" RealAddress="890A4AF0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -180,6 +193,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5028</ID>
               <Description>"掻鳥"</Description>
+              <LastState Value="26" RealAddress="890A4AFC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -189,6 +203,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5029</ID>
               <Description>"眩鳥"</Description>
+              <LastState Value="19" RealAddress="890A4B00"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -198,6 +213,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5030</ID>
               <Description>"泥魚竜"</Description>
+              <LastState Value="38" RealAddress="890A4B04"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -207,6 +223,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5031</ID>
               <Description>"飛雷竜"</Description>
+              <LastState Value="29" RealAddress="890A4B08"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -216,6 +233,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5032</ID>
               <Description>"浮空竜"</Description>
+              <LastState Value="28" RealAddress="890A4B0C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -225,6 +243,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5033</ID>
               <Description>"風漂竜"</Description>
+              <LastState Value="37" RealAddress="890A4B10"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -234,6 +253,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5034</ID>
               <Description>"痺賊竜"</Description>
+              <LastState Value="9" RealAddress="890A4B14"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -243,6 +263,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5035</ID>
               <Description>"惨爪竜"</Description>
+              <LastState Value="23" RealAddress="890A4B18"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -252,6 +273,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5036</ID>
               <Description>"骨鎚竜"</Description>
+              <LastState Value="16" RealAddress="890A4B1C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -261,6 +283,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5037</ID>
               <Description>"岩賊竜"</Description>
+              <LastState Value="12" RealAddress="890A4B24"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -270,6 +293,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5038</ID>
               <Description>"爆鱗竜"</Description>
+              <LastState Value="62" RealAddress="890A4B2C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -288,6 +312,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4986</ID>
               <Description>"蛮顎竜"</Description>
+              <LastState Value="34" RealAddress="890A4C90"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -297,6 +322,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4987</ID>
               <Description>"火竜"</Description>
+              <LastState Value="53" RealAddress="890A4C94"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -306,6 +332,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4988</ID>
               <Description>"賊竜"</Description>
+              <LastState Value="66" RealAddress="890A4CAC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -315,6 +342,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4989</ID>
               <Description>"雌火竜"</Description>
+              <LastState Value="43" RealAddress="890A4CB4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -324,6 +352,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4990</ID>
               <Description>"桜火竜"</Description>
+              <LastState Value="28" RealAddress="890A4CB8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -333,6 +362,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4991</ID>
               <Description>"蒼火竜"</Description>
+              <LastState Value="32" RealAddress="890A4CBC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -342,6 +372,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4992</ID>
               <Description>"角竜"</Description>
+              <LastState Value="47" RealAddress="890A4CC0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -351,6 +382,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4993</ID>
               <Description>"黒角竜"</Description>
+              <LastState Value="16" RealAddress="890A4CC4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -360,6 +392,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4994</ID>
               <Description>"幻獣"</Description>
+              <LastState Value="37" RealAddress="890A4CC8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -369,6 +402,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5115</ID>
               <Description>"貝希摩斯"</Description>
+              <LastState Value="11" RealAddress="890A4CCC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -378,6 +412,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4995</ID>
               <Description>"鋼龍"</Description>
+              <LastState Value="41" RealAddress="890A4CD0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -387,6 +422,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4996</ID>
               <Description>"炎妃龙"</Description>
+              <LastState Value="29" RealAddress="890A4CD4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -396,6 +432,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5114</ID>
               <Description>"炎王龍"</Description>
+              <LastState Value="41" RealAddress="890A4CD8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -405,6 +442,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4997</ID>
               <Description>"溶岩竜"</Description>
+              <LastState Value="12" RealAddress="890A4CDC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -414,6 +452,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4998</ID>
               <Description>"恐暴竜"</Description>
+              <LastState Value="15" RealAddress="890A4CE0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -423,6 +462,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5109</ID>
               <Description>"土砂竜"</Description>
+              <LastState Value="44" RealAddress="890A4CE4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -432,6 +472,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>4999</ID>
               <Description>"爆鎚竜"</Description>
+              <LastState Value="31" RealAddress="890A4CE8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -441,6 +482,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5116</ID>
               <Description>"鹿首精"</Description>
+              <LastState Value="9" RealAddress="890A4CEC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -450,6 +492,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5000</ID>
               <Description>"毒妖鳥"</Description>
+              <LastState Value="81" RealAddress="890A4CF0"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -459,6 +502,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5001</ID>
               <Description>"滅尽龍"</Description>
+              <LastState Value="61" RealAddress="890A4CF4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -468,6 +512,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5002</ID>
               <Description>"冥灯龍"</Description>
+              <LastState Value="29" RealAddress="890A4CF8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -477,6 +522,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5003</ID>
               <Description>"掻鳥"</Description>
+              <LastState Value="37" RealAddress="890A4CFC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -486,6 +532,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5004</ID>
               <Description>"眩鳥"</Description>
+              <LastState Value="27" RealAddress="890A4D00"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -495,6 +542,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5005</ID>
               <Description>"泥魚竜"</Description>
+              <LastState Value="24" RealAddress="890A4D04"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -504,6 +552,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5006</ID>
               <Description>"飛雷竜"</Description>
+              <LastState Value="22" RealAddress="890A4D08"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -513,6 +562,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5007</ID>
               <Description>"浮空竜"</Description>
+              <LastState Value="22" RealAddress="890A4D0C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -522,6 +572,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5008</ID>
               <Description>"風漂竜"</Description>
+              <LastState Value="30" RealAddress="890A4D10"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -531,6 +582,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5009</ID>
               <Description>"痺賊竜"</Description>
+              <LastState Value="14" RealAddress="890A4D14"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -540,6 +592,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5010</ID>
               <Description>"惨爪竜"</Description>
+              <LastState Value="59" RealAddress="890A4D18"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -549,6 +602,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5011</ID>
               <Description>"骨鎚竜"</Description>
+              <LastState Value="41" RealAddress="890A4D1C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -558,6 +612,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5012</ID>
               <Description>"屍套龍"</Description>
+              <LastState Value="18" RealAddress="890A4D20"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -567,6 +622,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5013</ID>
               <Description>"岩賊竜"</Description>
+              <LastState Value="21" RealAddress="890A4D24"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
@@ -576,10 +632,21 @@ dealloc(newmem)
             <CheatEntry>
               <ID>5014</ID>
               <Description>"爆鱗竜"</Description>
+              <LastState Value="57" RealAddress="890A4D2C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>weaponusep</Address>
               <Offsets>
                 <Offset>-30834</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>5117</ID>
+              <Description>"古代鹿首精"</Description>
+              <LastState Value="5" RealAddress="890A4D5C"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>weaponusep</Address>
+              <Offsets>
+                <Offset>-30804</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
@@ -609,12 +676,13 @@ dealloc(newmem)
               <ID>5069</ID>
               <Description>"&gt;最大"</Description>
               <Options moHideChildren="1"/>
-              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
                   <ID>5070</ID>
                   <Description>"蛮顎竜"</Description>
+                  <LastState Value="122" RealAddress="890A5090"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -624,6 +692,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5071</ID>
                   <Description>"火竜"</Description>
+                  <LastState Value="124" RealAddress="890A5094"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -633,6 +702,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5072</ID>
                   <Description>"賊竜"</Description>
+                  <LastState Value="180" RealAddress="890A50AC"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -642,6 +712,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5073</ID>
                   <Description>"雌火竜"</Description>
+                  <LastState Value="124" RealAddress="890A50B4"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -651,6 +722,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5074</ID>
                   <Description>"桜火竜"</Description>
+                  <LastState Value="124" RealAddress="890A50B8"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -660,6 +732,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5075</ID>
                   <Description>"蒼火竜"</Description>
+                  <LastState Value="123" RealAddress="890A50BC"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -669,6 +742,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5076</ID>
                   <Description>"角竜"</Description>
+                  <LastState Value="125" RealAddress="890A50C0"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -678,6 +752,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5077</ID>
                   <Description>"黒角竜"</Description>
+                  <LastState Value="123" RealAddress="890A50C4"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -687,6 +762,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5078</ID>
                   <Description>"幻獣"</Description>
+                  <LastState Value="123" RealAddress="890A50C8"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -696,6 +772,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5079</ID>
                   <Description>"鋼龍"</Description>
+                  <LastState Value="124" RealAddress="890A50D0"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -705,6 +782,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5080</ID>
                   <Description>"炎妃龍"</Description>
+                  <LastState Value="124" RealAddress="890A50D4"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -714,6 +792,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5110</ID>
                   <Description>"炎王龍"</Description>
+                  <LastState Value="125" RealAddress="890A50D8"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -723,6 +802,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5081</ID>
                   <Description>"溶岩竜"</Description>
+                  <LastState Value="125" RealAddress="890A50DC"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -732,6 +812,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5106</ID>
                   <Description>"恐暴竜"</Description>
+                  <LastState Value="119" RealAddress="890A50E0"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -741,6 +822,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5082</ID>
                   <Description>"土砂竜"</Description>
+                  <LastState Value="125" RealAddress="890A50E4"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -750,6 +832,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5083</ID>
                   <Description>"爆鎚竜"</Description>
+                  <LastState Value="123" RealAddress="890A50E8"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -759,6 +842,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5084</ID>
                   <Description>"毒妖鳥"</Description>
+                  <LastState Value="123" RealAddress="890A50F0"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -768,6 +852,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5085</ID>
                   <Description>"滅尽龍"</Description>
+                  <LastState Value="123" RealAddress="890A50F4"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -777,6 +862,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5086</ID>
                   <Description>"冥灯龍"</Description>
+                  <LastState Value="0" RealAddress="890A50F8"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -786,6 +872,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5087</ID>
                   <Description>"掻鳥"</Description>
+                  <LastState Value="193" RealAddress="890A50FC"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -795,6 +882,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5088</ID>
                   <Description>"眩鳥"</Description>
+                  <LastState Value="123" RealAddress="890A5100"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -804,6 +892,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5089</ID>
                   <Description>"泥魚竜"</Description>
+                  <LastState Value="124" RealAddress="890A5104"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -813,6 +902,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5090</ID>
                   <Description>"飛雷竜"</Description>
+                  <LastState Value="122" RealAddress="890A5108"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -822,6 +912,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5091</ID>
                   <Description>"浮空竜"</Description>
+                  <LastState Value="123" RealAddress="890A510C"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -831,6 +922,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5092</ID>
                   <Description>"風漂竜"</Description>
+                  <LastState Value="123" RealAddress="890A5110"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -840,6 +932,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5093</ID>
                   <Description>"痺賊竜"</Description>
+                  <LastState Value="123" RealAddress="890A5114"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -849,6 +942,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5094</ID>
                   <Description>"惨爪竜"</Description>
+                  <LastState Value="123" RealAddress="890A5118"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -858,6 +952,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5095</ID>
                   <Description>"骨鎚竜"</Description>
+                  <LastState Value="123" RealAddress="890A511C"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -867,6 +962,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5096</ID>
                   <Description>"屍套龍"</Description>
+                  <LastState Value="123" RealAddress="890A5120"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -876,6 +972,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5097</ID>
                   <Description>"岩賊竜"</Description>
+                  <LastState Value="180" RealAddress="890A5124"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -885,6 +982,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5113</ID>
                   <Description>"爛輝龍"</Description>
+                  <LastState Value="123" RealAddress="890A5128"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -894,6 +992,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5098</ID>
                   <Description>"爆鱗竜"</Description>
+                  <LastState Value="124" RealAddress="890A512C"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -906,12 +1005,13 @@ dealloc(newmem)
               <ID>5039</ID>
               <Description>"&gt;最小"</Description>
               <Options moHideChildren="1"/>
-              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
                   <ID>5040</ID>
                   <Description>"蛮顎竜"</Description>
+                  <LastState Value="88" RealAddress="890A5290"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -921,6 +1021,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5041</ID>
                   <Description>"火竜"</Description>
+                  <LastState Value="88" RealAddress="890A5294"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -930,6 +1031,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5042</ID>
                   <Description>"賊竜"</Description>
+                  <LastState Value="25" RealAddress="890A52AC"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -939,6 +1041,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5043</ID>
                   <Description>"雌火竜"</Description>
+                  <LastState Value="88" RealAddress="890A52B4"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -948,6 +1051,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5044</ID>
                   <Description>"桜火竜"</Description>
+                  <LastState Value="88" RealAddress="890A52B8"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -957,6 +1061,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5045</ID>
                   <Description>"蒼火竜"</Description>
+                  <LastState Value="53" RealAddress="890A52BC"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -966,6 +1071,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5046</ID>
                   <Description>"角竜"</Description>
+                  <LastState Value="88" RealAddress="890A52C0"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -975,6 +1081,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5047</ID>
                   <Description>"黒角竜"</Description>
+                  <LastState Value="90" RealAddress="890A52C4"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -984,6 +1091,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5048</ID>
                   <Description>"幻獣"</Description>
+                  <LastState Value="90" RealAddress="890A52C8"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -993,6 +1101,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5049</ID>
                   <Description>"鋼龍"</Description>
+                  <LastState Value="90" RealAddress="890A52D0"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1002,6 +1111,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5050</ID>
                   <Description>"炎妃龍"</Description>
+                  <LastState Value="90" RealAddress="890A52D4"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1011,6 +1121,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5111</ID>
                   <Description>"炎王龍"</Description>
+                  <LastState Value="90" RealAddress="890A52D8"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1020,6 +1131,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5051</ID>
                   <Description>"溶岩竜"</Description>
+                  <LastState Value="90" RealAddress="890A52DC"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1029,6 +1141,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5052</ID>
                   <Description>"恐暴竜"</Description>
+                  <LastState Value="91" RealAddress="890A52E0"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1038,6 +1151,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5107</ID>
                   <Description>"土砂竜"</Description>
+                  <LastState Value="89" RealAddress="890A52E4"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1047,6 +1161,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5053</ID>
                   <Description>"爆鎚竜"</Description>
+                  <LastState Value="89" RealAddress="890A52E8"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1056,6 +1171,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5054</ID>
                   <Description>"毒妖鳥"</Description>
+                  <LastState Value="88" RealAddress="890A52F0"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1065,6 +1181,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5055</ID>
                   <Description>"滅尽龍"</Description>
+                  <LastState Value="90" RealAddress="890A52F4"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1074,6 +1191,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5056</ID>
                   <Description>"冥灯龙"</Description>
+                  <LastState Value="0" RealAddress="890A52F8"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1083,6 +1201,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5057</ID>
                   <Description>"掻鳥"</Description>
+                  <LastState Value="88" RealAddress="890A52FC"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1092,6 +1211,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5058</ID>
                   <Description>"眩鳥"</Description>
+                  <LastState Value="90" RealAddress="890A5300"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1101,6 +1221,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5059</ID>
                   <Description>"泥魚竜"</Description>
+                  <LastState Value="88" RealAddress="890A5304"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1110,6 +1231,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5060</ID>
                   <Description>"飛雷竜"</Description>
+                  <LastState Value="88" RealAddress="890A5308"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1119,6 +1241,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5061</ID>
                   <Description>"浮空竜"</Description>
+                  <LastState Value="90" RealAddress="890A530C"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1128,6 +1251,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5062</ID>
                   <Description>"風漂竜"</Description>
+                  <LastState Value="89" RealAddress="890A5310"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1137,6 +1261,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5063</ID>
                   <Description>"痺賊竜"</Description>
+                  <LastState Value="90" RealAddress="890A5314"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1146,6 +1271,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5064</ID>
                   <Description>"惨爪竜"</Description>
+                  <LastState Value="39" RealAddress="890A5318"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1155,6 +1281,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5065</ID>
                   <Description>"骨鎚竜"</Description>
+                  <LastState Value="90" RealAddress="890A531C"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1164,6 +1291,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5066</ID>
                   <Description>"屍套龍"</Description>
+                  <LastState Value="90" RealAddress="890A5320"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1173,6 +1301,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5067</ID>
                   <Description>"岩賊竜"</Description>
+                  <LastState Value="90" RealAddress="890A5324"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1182,6 +1311,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5112</ID>
                   <Description>"爛輝龍"</Description>
+                  <LastState Value="90" RealAddress="890A5328"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
@@ -1191,6 +1321,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>5068</ID>
                   <Description>"爆鱗竜"</Description>
+                  <LastState Value="88" RealAddress="890A532C"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>weaponusep</Address>
                   <Offsets>
