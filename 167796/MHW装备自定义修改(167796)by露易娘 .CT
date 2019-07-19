@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="27">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1337052019</ID>
+      <Description>"MHW(167796)装备自定义 by露易娘"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <Color>8000FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1337051981</ID>
+          <Description>"修改装备"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Activated="1"/>
+          <Color>0000FF</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{ Game   : MonsterHunterWorld.exe
+  Version:
+  Date   : 2019-07-20
+  Author : weibo-Ruisan
+}
+
+[ENABLE]
+
+aobscanmodule(EquipPtr,MonsterHunterWorld.exe,8B 42 24 89 41 24 8B 42 28 89 41 28 8B 42 2C 89 41 2C 4D) // should be unique
+alloc(IAmHandsome,$1000,"MonsterHunterWorld.exe"+97ED6B0)
+alloc(HltedEquipAdr,8)
+registersymbol(HltedEquipAdr)
+label(code)
+label(return)
+IAmHandsome:
+code:
+  push rax
+  lea rax,[rdx+24]
+  mov [HltedEquipAdr],rax
+  pop rax
+  mov eax,[rdx+24]
+  mov [rcx+24],eax
+  jmp return
+
+EquipPtr:
+  jmp IAmHandsome
+  nop
+
+return:
+registersymbol(EquipPtr)
+
+[DISABLE]
+
+EquipPtr:
+  db 8B 42 24 89 41 24
+
+unregistersymbol(HltedEquipAdr)
+unregistersymbol(EquipPtr)
+dealloc(newmem)
+dealloc(DisgSharedCode,250)
+{
+// ORIGINAL CODE - INJECTION POINT: "MonsterHunterWorld.exe"+97ED6B0
+
+"MonsterHunterWorld.exe"+97ED690: 8B 42 08                          -  mov eax,[rdx+08]
+"MonsterHunterWorld.exe"+97ED693: 4C 8D 42 30                       -  lea r8,[rdx+30]
+"MonsterHunterWorld.exe"+97ED697: 89 41 08                          -  mov [rcx+08],eax
+"MonsterHunterWorld.exe"+97ED69A: 4C 8D 49 30                       -  lea r9,[rcx+30]
+"MonsterHunterWorld.exe"+97ED69E: 8B 42 0C                          -  mov eax,[rdx+0C]
+"MonsterHunterWorld.exe"+97ED6A1: 89 41 0C                          -  mov [rcx+0C],eax
+"MonsterHunterWorld.exe"+97ED6A4: 8B 42 18                          -  mov eax,[rdx+18]
+"MonsterHunterWorld.exe"+97ED6A7: 89 41 18                          -  mov [rcx+18],eax
+"MonsterHunterWorld.exe"+97ED6AA: 8B 42 20                          -  mov eax,[rdx+20]
+"MonsterHunterWorld.exe"+97ED6AD: 89 41 20                          -  mov [rcx+20],eax
+// ---------- INJECTING HERE ----------
+"MonsterHunterWorld.exe"+97ED6B0: 8B 42 24                          -  mov eax,[rdx+24]
+"MonsterHunterWorld.exe"+97ED6B3: 89 41 24                          -  mov [rcx+24],eax
+// ---------- DONE INJECTING  ----------
+"MonsterHunterWorld.exe"+97ED6B6: 8B 42 28                          -  mov eax,[rdx+28]
+"MonsterHunterWorld.exe"+97ED6B9: 89 41 28                          -  mov [rcx+28],eax
+"MonsterHunterWorld.exe"+97ED6BC: 8B 42 2C                          -  mov eax,[rdx+2C]
+"MonsterHunterWorld.exe"+97ED6BF: 89 41 2C                          -  mov [rcx+2C],eax
+"MonsterHunterWorld.exe"+97ED6C2: 4D 39 C1                          -  cmp r9,r8
+"MonsterHunterWorld.exe"+97ED6C5: 74 16                             -  je MonsterHunterWorld.exe+97ED6DD
+"MonsterHunterWorld.exe"+97ED6C7: 41 8B 00                          -  mov eax,[r8]
+"MonsterHunterWorld.exe"+97ED6CA: 41 89 01                          -  mov [r9],eax
+"MonsterHunterWorld.exe"+97ED6CD: 41 8B 40 04                       -  mov eax,[r8+04]
+"MonsterHunterWorld.exe"+97ED6D1: 41 89 41 04                       -  mov [r9+04],eax
+}
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>1337051997</ID>
+              <Description>"装备确认出售箱里选中修改"</Description>
+              <LastState Value="" RealAddress="00000000"/>
+              <Color>0000FF</Color>
+              <GroupHeader>1</GroupHeader>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052010</ID>
+              <Description>"装备总种类ID"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00:防具
+01:武器
+02:護石
+04:猟虫
+</DropDownList>
+              <LastState Value="01" RealAddress="0778DD68"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>-C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052020</ID>
+              <Description>"装备种类ID"</Description>
+              <LastState Value="03" RealAddress="0778DD70"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>-4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052026</ID>
+              <Description>"装备ID"</Description>
+              <LastState Value="7D" RealAddress="0778DD74"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>0</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337051982</ID>
+              <Description>"护石ID"</Description>
+              <LastState Value="007D" RealAddress="0778DD74"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>0</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052014</ID>
+              <Description>"防具等级"</Description>
+              <LastState Value="0" RealAddress="0778DD78"/>
+              <VariableType>Byte</VariableType>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052015</ID>
+              <Description>"防具升级次数"</Description>
+              <LastState Value="0" RealAddress="0778DD7C"/>
+              <VariableType>Byte</VariableType>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>8</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052025</ID>
+              <Description>"装饰孔1"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">FF FF FF FF:なし
+00 00 00 00:耐毒珠【1】
+01 00 00 00:耐麻珠【1】
+02 00 00 00:耐眠珠【1】
+03 00 00 00:耐絶珠【1】
+04 00 00 00:耐爆珠【1】
+05 00 00 00:耐裂珠【1】
+06 00 00 00:耐防珠【1】
+07 00 00 00:防音珠【3】
+08 00 00 00:防風珠【2】
+09 00 00 00:耐震珠【2】
+0A 00 00 00:攻撃珠【1】
+0B 00 00 00:防御珠【1】
+0C 00 00 00:体力珠【1】
+0D 00 00 00:早復珠【1】
+0E 00 00 00:耐火珠【1】
+0F 00 00 00:耐水珠【1】
+10 00 00 00:耐氷珠【1】
+11 00 00 00:耐雷珠【1】
+12 00 00 00:耐龍珠【1】
+13 00 00 00:耐属珠【1】
+14 00 00 00:火炎珠【1】
+15 00 00 00:流水珠【1】
+16 00 00 00:氷結珠【1】
+17 00 00 00:雷光珠【1】
+18 00 00 00:破龍珠【1】
+19 00 00 00:毒珠【1】
+1A 00 00 00:麻痺珠【1】
+1B 00 00 00:睡眠珠【1】
+1C 00 00 00:爆破珠【1】
+1D 00 00 00:毒瓶珠【3】
+1E 00 00 00:痺瓶珠【3】
+1F 00 00 00:眠瓶珠【3】
+20 00 00 00:爆瓶珠【3】
+21 00 00 00:解放珠【3】
+22 00 00 00:達人珠【1】
+23 00 00 00:超心珠【2】
+24 00 00 00:痛撃珠【2】
+25 00 00 00:短縮珠【2】
+26 00 00 00:匠珠【3】
+27 00 00 00:抜刀珠【2】
+28 00 00 00:重撃珠【2】
+29 00 00 00:KO珠【2】
+2A 00 00 00:奪気珠【1】
+2B 00 00 00:飛燕珠【2】
+2C 00 00 00:全開珠【2】
+2D 00 00 00:挑戦珠【2】
+2E 00 00 00:無傷珠【2】
+2F 00 00 00:底力珠【2】
+30 00 00 00:逆境珠【1】
+31 00 00 00:逆上珠【2】
+32 00 00 00:鼓笛珠【1】
+33 00 00 00:増弾珠【2】
+34 00 00 00:特射珠【1】
+35 00 00 00:炮術珠【1】
+36 00 00 00:砲手珠【1】
+37 00 00 00:強走珠【2】
+38 00 00 00:体術珠【2】
+39 00 00 00:早気珠【2】
+3A 00 00 00:無食珠【1】
+3B 00 00 00:回避珠【2】
+3C 00 00 00:跳躍珠【2】
+3D 00 00 00:鉄壁珠【1】
+3E 00 00 00:速納珠【1】
+3F 00 00 00:友愛珠【1】
+40 00 00 00:持続珠【1】
+41 00 00 00:節食珠【1】
+42 00 00 00:早食珠【1】
+43 00 00 00:研磨珠【1】
+44 00 00 00:爆師珠【1】
+45 00 00 00:茸好珠【1】
+46 00 00 00:加護珠【1】
+47 00 00 00:采配珠【1】
+48 00 00 00:植学珠【1】
+49 00 00 00:地学珠【1】
+4A 00 00 00:渾身珠【2】
+4B 00 00 00:投石珠【1】
+4C 00 00 00:潜伏珠【1】
+4D 00 00 00:耐衝珠【3】
+4E 00 00 00:煙復珠【1】
+4F 00 00 00:沼渡珠【1】
+50 00 00 00:標本珠【1】
+61 00 00 00:耐瘴珠【1】
+51 00 00 00:嗅覚珠【1】
+52 00 00 00:威嚇珠【1】
+53 00 00 00:滑走珠【2】
+54 00 00 00:治癒珠【1】
+55 00 00 00:強弾珠【3】
+56 00 00 00:貫通珠【3】
+57 00 00 00:散弾珠【3】
+58 00 00 00:昂揚珠【2】
+59 00 00 00:窮地珠【1】
+5A 00 00 00:龍封珠【3】
+5B 00 00 00:整備珠【1】
+5C 00 00 00:強弓珠【2】
+5D 00 00 00:心眼珠【2】
+5E 00 00 00:強壁珠【2】
+5F 00 00 00:剛刃珠【2】
+60 00 00 00:無撃珠【2】
+</DropDownList>
+              <LastState Value="FF FF FF FF" RealAddress="0778DD80"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>4</ByteLength>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052012</ID>
+              <Description>"装饰孔2"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">FF FF FF FF:なし
+00 00 00 00:耐毒珠【1】
+01 00 00 00:耐麻珠【1】
+02 00 00 00:耐眠珠【1】
+03 00 00 00:耐絶珠【1】
+04 00 00 00:耐爆珠【1】
+05 00 00 00:耐裂珠【1】
+06 00 00 00:耐防珠【1】
+07 00 00 00:防音珠【3】
+08 00 00 00:防風珠【2】
+09 00 00 00:耐震珠【2】
+0A 00 00 00:攻撃珠【1】
+0B 00 00 00:防御珠【1】
+0C 00 00 00:体力珠【1】
+0D 00 00 00:早復珠【1】
+0E 00 00 00:耐火珠【1】
+0F 00 00 00:耐水珠【1】
+10 00 00 00:耐氷珠【1】
+11 00 00 00:耐雷珠【1】
+12 00 00 00:耐龍珠【1】
+13 00 00 00:耐属珠【1】
+14 00 00 00:火炎珠【1】
+15 00 00 00:流水珠【1】
+16 00 00 00:氷結珠【1】
+17 00 00 00:雷光珠【1】
+18 00 00 00:破龍珠【1】
+19 00 00 00:毒珠【1】
+1A 00 00 00:麻痺珠【1】
+1B 00 00 00:睡眠珠【1】
+1C 00 00 00:爆破珠【1】
+1D 00 00 00:毒瓶珠【3】
+1E 00 00 00:痺瓶珠【3】
+1F 00 00 00:眠瓶珠【3】
+20 00 00 00:爆瓶珠【3】
+21 00 00 00:解放珠【3】
+22 00 00 00:達人珠【1】
+23 00 00 00:超心珠【2】
+24 00 00 00:痛撃珠【2】
+25 00 00 00:短縮珠【2】
+26 00 00 00:匠珠【3】
+27 00 00 00:抜刀珠【2】
+28 00 00 00:重撃珠【2】
+29 00 00 00:KO珠【2】
+2A 00 00 00:奪気珠【1】
+2B 00 00 00:飛燕珠【2】
+2C 00 00 00:全開珠【2】
+2D 00 00 00:挑戦珠【2】
+2E 00 00 00:無傷珠【2】
+2F 00 00 00:底力珠【2】
+30 00 00 00:逆境珠【1】
+31 00 00 00:逆上珠【2】
+32 00 00 00:鼓笛珠【1】
+33 00 00 00:増弾珠【2】
+34 00 00 00:特射珠【1】
+35 00 00 00:炮術珠【1】
+36 00 00 00:砲手珠【1】
+37 00 00 00:強走珠【2】
+38 00 00 00:体術珠【2】
+39 00 00 00:早気珠【2】
+3A 00 00 00:無食珠【1】
+3B 00 00 00:回避珠【2】
+3C 00 00 00:跳躍珠【2】
+3D 00 00 00:鉄壁珠【1】
+3E 00 00 00:速納珠【1】
+3F 00 00 00:友愛珠【1】
+40 00 00 00:持続珠【1】
+41 00 00 00:節食珠【1】
+42 00 00 00:早食珠【1】
+43 00 00 00:研磨珠【1】
+44 00 00 00:爆師珠【1】
+45 00 00 00:茸好珠【1】
+46 00 00 00:加護珠【1】
+47 00 00 00:采配珠【1】
+48 00 00 00:植学珠【1】
+49 00 00 00:地学珠【1】
+4A 00 00 00:渾身珠【2】
+4B 00 00 00:投石珠【1】
+4C 00 00 00:潜伏珠【1】
+4D 00 00 00:耐衝珠【3】
+4E 00 00 00:煙復珠【1】
+4F 00 00 00:沼渡珠【1】
+50 00 00 00:標本珠【1】
+61 00 00 00:耐瘴珠【1】
+51 00 00 00:嗅覚珠【1】
+52 00 00 00:威嚇珠【1】
+53 00 00 00:滑走珠【2】
+54 00 00 00:治癒珠【1】
+55 00 00 00:強弾珠【3】
+56 00 00 00:貫通珠【3】
+57 00 00 00:散弾珠【3】
+58 00 00 00:昂揚珠【2】
+59 00 00 00:窮地珠【1】
+5A 00 00 00:龍封珠【3】
+5B 00 00 00:整備珠【1】
+5C 00 00 00:強弓珠【2】
+5D 00 00 00:心眼珠【2】
+5E 00 00 00:強壁珠【2】
+5F 00 00 00:剛刃珠【2】
+60 00 00 00:無撃珠【2】
+</DropDownList>
+              <LastState Value="FF FF FF FF" RealAddress="0778DD84"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>4</ByteLength>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>10</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052013</ID>
+              <Description>"装饰孔3"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">FF FF FF FF:なし
+00 00 00 00:耐毒珠【1】
+01 00 00 00:耐麻珠【1】
+02 00 00 00:耐眠珠【1】
+03 00 00 00:耐絶珠【1】
+04 00 00 00:耐爆珠【1】
+05 00 00 00:耐裂珠【1】
+06 00 00 00:耐防珠【1】
+07 00 00 00:防音珠【3】
+08 00 00 00:防風珠【2】
+09 00 00 00:耐震珠【2】
+0A 00 00 00:攻撃珠【1】
+0B 00 00 00:防御珠【1】
+0C 00 00 00:体力珠【1】
+0D 00 00 00:早復珠【1】
+0E 00 00 00:耐火珠【1】
+0F 00 00 00:耐水珠【1】
+10 00 00 00:耐氷珠【1】
+11 00 00 00:耐雷珠【1】
+12 00 00 00:耐龍珠【1】
+13 00 00 00:耐属珠【1】
+14 00 00 00:火炎珠【1】
+15 00 00 00:流水珠【1】
+16 00 00 00:氷結珠【1】
+17 00 00 00:雷光珠【1】
+18 00 00 00:破龍珠【1】
+19 00 00 00:毒珠【1】
+1A 00 00 00:麻痺珠【1】
+1B 00 00 00:睡眠珠【1】
+1C 00 00 00:爆破珠【1】
+1D 00 00 00:毒瓶珠【3】
+1E 00 00 00:痺瓶珠【3】
+1F 00 00 00:眠瓶珠【3】
+20 00 00 00:爆瓶珠【3】
+21 00 00 00:解放珠【3】
+22 00 00 00:達人珠【1】
+23 00 00 00:超心珠【2】
+24 00 00 00:痛撃珠【2】
+25 00 00 00:短縮珠【2】
+26 00 00 00:匠珠【3】
+27 00 00 00:抜刀珠【2】
+28 00 00 00:重撃珠【2】
+29 00 00 00:KO珠【2】
+2A 00 00 00:奪気珠【1】
+2B 00 00 00:飛燕珠【2】
+2C 00 00 00:全開珠【2】
+2D 00 00 00:挑戦珠【2】
+2E 00 00 00:無傷珠【2】
+2F 00 00 00:底力珠【2】
+30 00 00 00:逆境珠【1】
+31 00 00 00:逆上珠【2】
+32 00 00 00:鼓笛珠【1】
+33 00 00 00:増弾珠【2】
+34 00 00 00:特射珠【1】
+35 00 00 00:炮術珠【1】
+36 00 00 00:砲手珠【1】
+37 00 00 00:強走珠【2】
+38 00 00 00:体術珠【2】
+39 00 00 00:早気珠【2】
+3A 00 00 00:無食珠【1】
+3B 00 00 00:回避珠【2】
+3C 00 00 00:跳躍珠【2】
+3D 00 00 00:鉄壁珠【1】
+3E 00 00 00:速納珠【1】
+3F 00 00 00:友愛珠【1】
+40 00 00 00:持続珠【1】
+41 00 00 00:節食珠【1】
+42 00 00 00:早食珠【1】
+43 00 00 00:研磨珠【1】
+44 00 00 00:爆師珠【1】
+45 00 00 00:茸好珠【1】
+46 00 00 00:加護珠【1】
+47 00 00 00:采配珠【1】
+48 00 00 00:植学珠【1】
+49 00 00 00:地学珠【1】
+4A 00 00 00:渾身珠【2】
+4B 00 00 00:投石珠【1】
+4C 00 00 00:潜伏珠【1】
+4D 00 00 00:耐衝珠【3】
+4E 00 00 00:煙復珠【1】
+4F 00 00 00:沼渡珠【1】
+50 00 00 00:標本珠【1】
+61 00 00 00:耐瘴珠【1】
+51 00 00 00:嗅覚珠【1】
+52 00 00 00:威嚇珠【1】
+53 00 00 00:滑走珠【2】
+54 00 00 00:治癒珠【1】
+55 00 00 00:強弾珠【3】
+56 00 00 00:貫通珠【3】
+57 00 00 00:散弾珠【3】
+58 00 00 00:昂揚珠【2】
+59 00 00 00:窮地珠【1】
+5A 00 00 00:龍封珠【3】
+5B 00 00 00:整備珠【1】
+5C 00 00 00:強弓珠【2】
+5D 00 00 00:心眼珠【2】
+5E 00 00 00:強壁珠【2】
+5F 00 00 00:剛刃珠【2】
+60 00 00 00:無撃珠【2】
+</DropDownList>
+              <LastState Value="FF FF FF FF" RealAddress="0778DD88"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>4</ByteLength>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>14</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052016</ID>
+              <Description>"弩自定义1"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">FF FF FF FF:なし
+00 00 00 00:反動抑制パーツ
+01 00 00 00:リロード補助パーツ
+02 00 00 00:ブレ抑制パーツ
+03 00 00 00:近接射擊強化パーツ
+04 00 00 00:遠距離射擊強化パーツ
+05 00 00 00:シールドパーツ
+</DropDownList>
+              <LastState Value="FF FF FF FF" RealAddress="0778DD8C"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>4</ByteLength>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>18</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052023</ID>
+              <Description>"弩自定义2"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">FF FF FF FF:なし
+00 00 00 00:反動抑制パーツ
+01 00 00 00:リロード補助パーツ
+02 00 00 00:ブレ抑制パーツ
+03 00 00 00:近接射擊強化パーツ
+04 00 00 00:遠距離射擊強化パーツ
+05 00 00 00:シールドパーツ
+</DropDownList>
+              <LastState Value="FF FF FF FF" RealAddress="0778DD90"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>4</ByteLength>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>1C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052024</ID>
+              <Description>"弩自定义3"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">FF FF FF FF:なし
+00 00 00 00:反動抑制パーツ
+01 00 00 00:リロード補助パーツ
+02 00 00 00:ブレ抑制パーツ
+03 00 00 00:近接射擊強化パーツ
+04 00 00 00:遠距離射擊強化パーツ
+05 00 00 00:シールドパーツ
+</DropDownList>
+              <LastState Value="FF FF FF FF" RealAddress="0778DD94"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>4</ByteLength>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>20</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052022</ID>
+              <Description>"自定义强化1"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00:なし
+01:攻擊力強化
+02:会心率強化
+03:防御力強化
+04:スロット強化
+05:回復能力付与
+</DropDownList>
+              <LastState Value="01" RealAddress="0778DD98"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>24</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052017</ID>
+              <Description>"自定义强化2"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00:なし
+01:攻擊力強化
+02:会心率強化
+03:防御力強化
+04:スロット強化
+05:回復能力付与
+</DropDownList>
+              <LastState Value="01" RealAddress="0778DD9C"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>28</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1337052018</ID>
+              <Description>"自定义强化3"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">00:なし
+01:攻擊力強化
+02:会心率強化
+03:防御力強化
+04:スロット強化
+05:回復能力付与
+</DropDownList>
+              <LastState Value="01" RealAddress="0778DDA0"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>HltedEquipAdr</Address>
+              <Offsets>
+                <Offset>2C</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
